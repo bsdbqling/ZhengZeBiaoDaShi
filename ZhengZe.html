@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>正则表达式</title>
+		<style type="text/css">
+			ol{
+				background-color: salmon;
+				padding: 40px;
+			}
+			li{
+				background-color: cornflowerblue;
+				border: 5px 20px  20px;
+			}
+		</style>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var a="aaa12345 bBBB67890 ccc12345 ddd67890";
+			var b="dsa adas qwewq 432432 45646   3 45 2342 34";
+			var c="第1章 第12章 第31章 第4章 第25章 第6章 第7章 第48章 第8章 第60章 "
+			var str3="第1章 第13章 第21章 第7章 第15章 第51章 第10章..."
+			var str4="第.章 第/章 第\章 第章 第15章 第51章 第10章..."
+			var guolv1=/[^a-z]/gi;
+			var guolv2=/第[1-4][0-9]章/g;
+			var reg4=/第[1-2][0-9]章/g //10-29
+			var reg5=/第\.章/g 
+			document.write("<ol>")
+			document.write("<li>"+a.replace(guolv1,'')+"</li>");
+			document.write("<li>"+a.split(" ")+"</li>");
+			document.write('<li>'+c.match(guolv2)) //以数组的形式返回符合条件的数据
+			document.write('<li>'+str3.match(reg4)) //以数组的形式返回符合条件的数据
+			document.write('<li>'+str3.match(reg4)) //以数组的形式返回符合条件的数据
+			document.write("<li>"+str3.match(reg5))
+			document.write("<li>"+str4.match(reg5))
+			document.write("<ol>")
+		</script>
+	</body>
+</html>
