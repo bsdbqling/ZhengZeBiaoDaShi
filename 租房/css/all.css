@@ -1,0 +1,101 @@
+
+/*通用配置*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body, html{
+	width: 100%;
+	height: 100%;
+	font:bold 24px 微软雅黑;
+	position: relative;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	font:bold 24px 微软雅黑;
+}
+/*/通用配置*/
+/*头部*/
+.navbar-fixed-top{
+	background-color: rgb(246,244,245);
+	height: 80px;
+}
+.navbar-fixed-top .navbar{
+	    position: absolute;
+    	width: 10%;
+    	height: 80px;
+    	background-color: rgb(246,244,245);
+    	font-size: 21px;
+    	padding-left:25px ;
+}
+.top{
+	height: 80px;
+    width: 90%;
+    padding-right: 80px;
+    margin-left: 80px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+}
+/*/头部*/
+
+/*地点显示*/
+.list2{
+margin-top:15px;
+background-color: #f6f4f5;
+height: 60px;
+font-size: 18px;
+}
+.list2 span{
+line-height: 40px;
+color: #d06b1b;
+}
+.list2 span:nth-child(1){
+color: #000000;
+}
+.list3{
+background-color: #f6f4f5;
+height: ;
+text-align: center;
+}
+.list3 img{
+width: 115px;
+margin: 20px auto;
+}
+.list3 .row .col-sm-4 p{
+	color: #a8a4a3;
+	font-size: 20px;
+}
+.list3 .row .col-sm-4 h2{
+	font-size: 24px;
+}
+.rollingtext {
+	font-size: 44px;
+    color: #000000;
+    padding-left: 22px;
+    
+}
+.rolling h2{
+	font-size: 35px;
+    color: a28b79;
+    padding-left: 22px;
+}
+/*结尾*/
+.navbar-fixed-bottom{
+	background-color: rgb(246,244,245);
+	height: 80px;
+}
+.footertext{
+	margin: 30px auto;
+    text-align: center;
+    background-color: #f6f4f5;
+    width: 320px;
+    font-size: 22px;
+    height: 68px;
+    line-height: 68px;
+    border-radius: 10px;
+    border: 2px solid #908f8a;
+}
