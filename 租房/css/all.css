@@ -3,13 +3,11 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	position: relative;
 }
 body, html{
-	width: 100%;
+	width: 1000px;
 	height: 100%;
 	font:bold 24px 微软雅黑;
-	position: relative;
 }
 ul{
 	list-style-type: none;
