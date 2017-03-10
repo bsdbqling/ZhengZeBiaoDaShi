@@ -8,6 +8,7 @@ body, html{
 	width: 1000px;
 	height: 100%;
 	font:bold 24px 微软雅黑;
+	position: relative;
 }
 ul{
 	list-style-type: none;
