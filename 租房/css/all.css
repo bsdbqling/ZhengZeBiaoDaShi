@@ -49,7 +49,7 @@ select::-ms-expand { display: none; }
     	height: 80px;
     	background-color: rgb(246,244,245);
     	font-size: 21px;
-    	padding-left:25px ;
+    	padding-left:10px ;
 }
 .top{
 	height: 80px;
