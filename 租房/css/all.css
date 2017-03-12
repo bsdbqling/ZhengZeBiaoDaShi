@@ -16,6 +16,7 @@ ul{
 a{
 	text-decoration: none;
 	font:bold 24px 微软雅黑;
+	color: #000000;
 }
 select {
   /*Chrome和Firefox里面的边框是不一样的，所以复写了一下*/

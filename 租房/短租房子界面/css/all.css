@@ -1,0 +1,116 @@
+
+/*通用配置*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+    font-family: 'Microsoft YaHei', sans-serif;
+    background-color:#e1e0de;
+}
+ul{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+	font:bold 24px 微软雅黑;
+}
+/*/通用配置*/
+/*头部*/
+.navbar-default{
+	height: 90px;
+	font-size: 30px;
+	padding-top: 20px;
+}
+.glyphicon{
+	float: left;
+    height: 90px;
+    width: 10%;
+    padding-left: 4%;
+    padding-top: 7px;
+    color: #434343;
+}
+.navbar-default .navbar-form{
+	height: 42px;
+    width: 80%;
+    position: relative;
+}
+.location{
+	float: right;
+    height: 90px;
+    width: 10%;
+    padding-left: 4%;
+    color: #434343;
+}
+.row2 ul{
+	width: 100%;
+	text-align: center;
+}
+.row2 ul>li{
+	width: 25%;
+}
+.row2 ul>li a{
+	font-size: 20px;
+	font-weight: normal;
+}
+/*/头部*/
+
+.pic{
+	width: 100%;
+	height: 600px;
+	position: relative;
+}
+.rowtext{
+	width: 100%;
+    height: 143px;
+    background-color: #e9e8e6;
+    padding-top: 20px;
+}
+.rowtext .massage1{
+	padding: 14px;
+	font-size: 30px;
+	padding: 14px;
+    font-size: 30px;
+    font-weight: bold
+}
+.rowtext .massage1 span:nth-child(2){
+	color:#dc1d15;
+	float: right;
+	font-weight: normal;
+    font-size: 39px;
+    margin-top: -17px;
+}
+.rowtext .massage1 span:nth-child(2) span{
+	font-size: 18px;
+}
+.rowtext .massage2{
+	padding: 14px;
+	font-size: 20px;
+	padding: 14px;
+	font-weight: normal;
+    font-size: 30px;
+    color:#777576;
+    padding-top: 0px;
+}
+.rowtext .massage2 span:nth-child(2) span:nth-child(1){
+	width: 65px;
+    border: 2px solid #00a0ea;
+    color: #00a0ea;
+    height: 30px;
+    display: inline-block;
+     margin-right: 8px;
+     line-height: 30px;
+
+}
+.rowtext .massage2 span:nth-child(2) span:nth-child(2){
+	width: 104px;
+    border: 2px solid #cf7e15;
+    color: #cf7e15;
+    height: 36px;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+    line-height: 36px;
+}
+/*结尾*/
+
